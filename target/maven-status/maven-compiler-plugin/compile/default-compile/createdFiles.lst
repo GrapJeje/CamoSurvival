@@ -1,0 +1,5 @@
+eu\camonetwork\camosurvial\Commands\BlocksBroken.class
+eu\camonetwork\camosurvial\Events\BlockBreak.class
+eu\camonetwork\camosurvial\infrastructure\Configs\ConfigManager.class
+eu\camonetwork\camosurvial\CamoSurvial.class
+eu\camonetwork\camosurvial\infrastructure\Configs\DefaultConfig.class

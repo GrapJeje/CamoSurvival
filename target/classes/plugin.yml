@@ -1,0 +1,12 @@
+name: CamoSurvial
+version: '1.0-SNAPSHOT'
+main: eu.camonetwork.camosurvial.CamoSurvial
+api-version: '1.20'
+authors: [GrapJeje]
+description: Count al of the block breaks
+
+commands:
+  leaderboard:
+    description: Get the top 10 players with the most blocks broken
+    aliases:
+      - lb
