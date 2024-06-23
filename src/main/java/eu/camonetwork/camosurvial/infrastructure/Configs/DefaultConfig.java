@@ -3,7 +3,6 @@ package eu.camonetwork.camosurvial.infrastructure.Configs;
 import org.bukkit.configuration.ConfigurationSection;
 
 import java.util.*;
-import java.util.logging.Logger;
 
 public class DefaultConfig extends ConfigManager {
     public DefaultConfig() {

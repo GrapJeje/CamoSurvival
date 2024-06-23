@@ -2,6 +2,7 @@ package eu.camonetwork.camosurvial;
 
 import eu.camonetwork.camosurvial.Commands.BlocksBroken;
 import eu.camonetwork.camosurvial.Events.BlockBreak;
+import eu.camonetwork.camosurvial.Events.OnPlayerKill;
 import eu.camonetwork.camosurvial.infrastructure.Configs.ConfigManager;
 import eu.camonetwork.camosurvial.infrastructure.Configs.DefaultConfig;
 import org.bukkit.command.CommandExecutor;
@@ -39,6 +40,7 @@ public final class CamoSurvial extends JavaPlugin {
         instance = this;
 
         registerEvent(new BlockBreak());
+        registerEvent(new OnPlayerKill());
         registerCommand("leaderboard", new BlocksBroken(), null);
 
         saveDefaultConfig();
