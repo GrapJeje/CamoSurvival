@@ -65,7 +65,7 @@ public class DefaultConfig extends ConfigManager {
         if (playersSection != null) {
             for (String key : playersSection.getKeys(false)) {
                 UUID uuid = UUID.fromString(key);
-                int blocksBroken = playersSection.getInt(key + ".blockplaced", 0);
+                int blocksBroken = playersSection.getInt(key + ".blocksplaced", 0);
                 blocksBrokenMap.put(uuid, blocksBroken);
             }
         }
